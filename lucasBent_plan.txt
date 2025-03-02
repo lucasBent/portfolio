@@ -1,0 +1,12 @@
+The point of this website is to be my new portfolio. That means that I plan
+to host this website on the public internet long-term for professional use.
+I will link it in job applications. I will link it to my resume. This means
+that it must be a beautiful and professional piece of work, putting my best
+foot forward for potential employers.
+
+The website will contain a brief description of who I am and what my
+credentials are. The focal point of the site will be a demonstration of
+various projects I’ve been involved with, which I am proud of. Each project
+will require a description, a photo or a video, and potentially further
+information. The site’s layout will require custom CSS, and custom JS will
+be used to implement visual flourishes.
