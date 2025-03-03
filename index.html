@@ -24,24 +24,53 @@
         </nav>
         <div id="page-content">
             <section id="splash">
-                <h1>LUCAS BENT</h1>
-                <ul>
+                <h1 id="site-title" class="hidden-onload">LUCAS BENT</h1>
+                <ul id="site-tagline" class="hidden-onload">
                     <li>software engineer</li>
                     <li>startup founder</li>
                     <li>honors compsci student</li>
                     <li>budding ai innovator</li>
                 </ul>
-                <div class="links">
+                <div id="site-links" class="links hidden-onload">
                     <a href="bent_lucas_UMaine.pdf" target="_blank" rel="noopener noreferrer" class="button"
                         >SEE MY RESUME</a
                     >
+                    <div class="icons">
+                        <!-- The icons used in this div are used courtesy of [1] in citation.txt. -->
+                        <a href="https://www.linkedin.com/in/lucas-bent-243239210/" target="_blank" rel="noopener noreferrer"
+                            ><ion-icon
+                                name="logo-linkedin"
+                                aria-label="Click to navigate to Lucas Bent's LinkedIn"
+                                size="small"
+                            ></ion-icon
+                        ></a>
+                        <a href="https://github.com/lucasBent" target="_blank" rel="noopener noreferrer"
+                            ><ion-icon
+                                name="logo-github"
+                                aria-label="Click to navigate to Lucas Bent's GitHub"
+                                size="small"
+                            ></ion-icon
+                        ></a>
+                        <a href="https://www.instagram.com/lucas.bent1/" target="_blank" rel="noopener noreferrer"
+                            ><ion-icon
+                                name="logo-instagram"
+                                aria-label="Click to navigate to Lucas Bent's Instagram"
+                                size="small"
+                            ></ion-icon
+                        ></a>
+                        <a href="mailto:lucasowenbent@gmail.com" target="_blank" rel="noopener noreferrer"
+                            ><ion-icon name="mail" aria-label="Click to email Lucas Bent" size="small"></ion-icon
+                        ></a>
+                    </div>
                     <a href="#projects" id="projects-jump"
                         >PROJECTS
+                        <!-- I made this graphic myself. -->
                         <img src="img/arrow.svg" alt="Downward arrow leading to the Projects section below" />
                     </a>
                 </div>
             </section>
             <section id="projects">
+                <!-- All media in this section is my own. -->
                 <h2>PROJECTS</h2>
                 <article class="project odd">
                     <a
@@ -53,6 +82,7 @@
                     >
                         <img
                             src="img/GreenDex_thumb.webp"
+                            height="1080"
                             alt="Screenshots of a company page, a search page, and an environmental metrics page on GreenDex"
                         />
                     </a>
@@ -86,12 +116,18 @@
                         </ul>
                     </div>
                     <div>
-                        <video
-                            src="img/IPAL.mkv"
-                            type="video/mkv"
-                            aria-label="A video demonstration of the I:PAL language learning app, including translating speech into the International Phonetic Alphabet"
-                            controls
-                        />
+                        <a
+                            class="project-img"
+                            href="https://drive.google.com/file/d/1lWIUYE9GcjD77M7o68Cdkyj40epJH_7h/view?usp=sharing"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="img/IPAL.webp"
+                                height="540"
+                                alt="Click to navigate to a video demonstration of the I:PAL language learning app, including translating speech into the International Phonetic Alphabet"
+                            />
+                        </a>
                     </div>
                 </article>
                 <article class="project odd">
@@ -104,6 +140,7 @@
                     >
                         <img
                             src="img/StockDoc_thumb.webp"
+                            height="539"
                             alt="A screenshot of Super Smash Bros. Ultimate gameplay, containing an extra toolbar that predicts which character will land the next hit"
                         />
                     </a>
@@ -146,6 +183,7 @@
                     >
                         <img
                             src="img/JVP_thumb.webp"
+                            height="903"
                             alt="A screenshot of the UMaine Jewish Voice for Peace website containing a purple JVP logo and description of the organization"
                         />
                     </a>
@@ -160,6 +198,7 @@
                     >
                         <img
                             src="img/IrisThrifting_thumb.webp"
+                            height="1019"
                             alt="A screenshot of the Iris Thrifting platform showing a store page with a listed clothing item"
                         />
                     </a>
@@ -184,5 +223,8 @@
             &copy; Lucas Bent 2025. Inquiries or Feedback? Email
             <a href="mailto:lucasowenbent@gmail.com">lucas.bent@maine.edu</a>.
         </footer>
+        <script src="js/index.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>

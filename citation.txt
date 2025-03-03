@@ -1,0 +1,5 @@
+[1] Ionicons, Copyright 2025 Ionic.
+[2] https://www.w3schools.com/cssref/atrule_media.php
+[3] https://stackoverflow.com/questions/40409717/trigger-event-after-scrolling-past-element-javascript-only
+
+All media on this site that is not explicitly sourced is my own.
