@@ -288,7 +288,7 @@ div.icons a {
 }
 
 div.icons a:hover {
-    scale: 1.1;
+    transform: scale(1.1);
 }
 
 div.icons a:visited {
@@ -330,11 +330,11 @@ section#projects .project img, section#projects .project video {
     max-width: 100vw;
     height: 28rem;
     border: none;
-    transition: scale 300ms;
+    transition: transform 300ms;
 }
 
 section#projects .project a.project-img img:hover {
-    scale: 0.975;
+    transform: scale(0.975);
 }
 
 section#projects .project.odd {
